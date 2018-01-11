@@ -1,0 +1,4 @@
+target 'onlyTa' do
+   pod 'RongCloudIM/IMLib','~>2.8.24’
+   pod 'RongCloudIM/IMKit','~>2.8.24’
+end
