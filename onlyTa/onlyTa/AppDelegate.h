@@ -1,13 +1,13 @@
 //
 //  AppDelegate.h
-//  onlyTa
+//  OnlyTa
 //
-//  Created by smartwallit on 2017/12/15.
-//  Copyright © 2017年 a1anwang. All rights reserved.
+//  Created by smartwallit on 2018/2/3.
+//  Copyright © 2018年 a1anwang. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
-#import "APPHeader.h"
+
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;

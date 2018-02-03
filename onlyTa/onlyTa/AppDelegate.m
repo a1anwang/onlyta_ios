@@ -1,13 +1,14 @@
 //
 //  AppDelegate.m
-//  onlyTa
+//  OnlyTa
 //
-//  Created by smartwallit on 2017/12/15.
-//  Copyright © 2017年 a1anwang. All rights reserved.
+//  Created by smartwallit on 2018/2/3.
+//  Copyright © 2018年 a1anwang. All rights reserved.
 //
 
 #import "AppDelegate.h"
-
+#import <RongIMKit/RongIMKit.h>
+#define RongYunAppKey @"8luwapkv8rcgl"
 @interface AppDelegate ()
 
 @end
@@ -17,12 +18,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    [[RCIM sharedRCIM] initWithAppKey:RongYunAppKey];
     
-    NSString *token=@"MDjEquI3ig0SE0fdZYCO9y6mmlmLZ4KjRKp+zJEEtPJfaiAxaBMrj2K9lK9f+rVac+cI0TVHv6IUQG8FGPVN3w==";
-    
-    [[RCIM sharedRCIM] initWithAppKey:@"8luwapkv8rcgl"];
-    
-    [[RCIM sharedRCIM] connectWithToken:token    success:^(NSString *userId) {
+    [[RCIM sharedRCIM] connectWithToken:@"jyIdI/qql/JN6d4OXtL9yMYhqZhF+AHGHIl0kaVBbOzVxTNWIQ2XW1GLo6j4XfO/m7z55CRd2VDJfjfpC92wDw=="     success:^(NSString *userId) {
         NSLog(@"登陆成功。当前登录的用户ID：%@", userId);
     } error:^(RCConnectErrorCode status) {
         NSLog(@"登陆的错误码为:%d", status);
@@ -32,8 +30,6 @@
         //如果没有设置token有效期却提示token错误，请检查您客户端和服务器的appkey是否匹配，还有检查您获取token的流程。
         NSLog(@"token错误");
     }];
-    
-    
     return YES;
 }
 

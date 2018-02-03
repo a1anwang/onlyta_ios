@@ -3,250 +3,192 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 48;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		185FFD651FFB70E800A49E5A /* RongIMKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 185FFD601FFB70B600A49E5A /* RongIMKit.framework */; };
-		185FFD661FFB710200A49E5A /* RongIMLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 185FFD611FFB70B600A49E5A /* RongIMLib.framework */; };
-		18731E101FE37EE4004A4864 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18731E0F1FE37EE4004A4864 /* main.m */; };
-		18731E131FE37EE4004A4864 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18731E121FE37EE4004A4864 /* AppDelegate.m */; };
-		18731E161FE37EE4004A4864 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18731E151FE37EE4004A4864 /* ViewController.m */; };
-		18731E191FE37EE4004A4864 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18731E171FE37EE4004A4864 /* Main.storyboard */; };
-		18731E1B1FE37EE4004A4864 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18731E1A1FE37EE4004A4864 /* Assets.xcassets */; };
-		18731E1E1FE37EE4004A4864 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18731E1C1FE37EE4004A4864 /* LaunchScreen.storyboard */; };
-		18BB67D51FE38A64001BE744 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18BB67D41FE38A64001BE744 /* AssetsLibrary.framework */; };
-		18BB67D71FE38A6A001BE744 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18BB67D61FE38A6A001BE744 /* AudioToolbox.framework */; };
-		18BB67D91FE38A71001BE744 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18BB67D81FE38A71001BE744 /* AVFoundation.framework */; };
-		18BB67DB1FE38A7D001BE744 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18BB67DA1FE38A7D001BE744 /* CFNetwork.framework */; };
-		18BB67DD1FE38A8C001BE744 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18BB67DC1FE38A8C001BE744 /* CoreAudio.framework */; };
-		18BB67DF1FE38A9B001BE744 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18BB67DE1FE38A9B001BE744 /* CoreGraphics.framework */; };
-		18BB67E11FE38AA0001BE744 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18BB67E01FE38AA0001BE744 /* CoreLocation.framework */; };
-		18BB67E31FE38AA7001BE744 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18BB67E21FE38AA7001BE744 /* CoreMedia.framework */; };
-		18BB67E51FE38AAF001BE744 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18BB67E41FE38AAF001BE744 /* CoreTelephony.framework */; };
-		18BB67E71FE38AB6001BE744 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18BB67E61FE38AB6001BE744 /* CoreVideo.framework */; };
-		18BB67E91FE38AC0001BE744 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18BB67E81FE38AC0001BE744 /* ImageIO.framework */; };
-		18BB67EB1FE38ACB001BE744 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 18BB67EA1FE38ACB001BE744 /* libc++.tbd */; };
-		18BB67ED1FE38AD4001BE744 /* libc++abi.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 18BB67EC1FE38AD4001BE744 /* libc++abi.tbd */; };
-		18BB67EF1FE38ADE001BE744 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 18BB67EE1FE38ADE001BE744 /* libsqlite3.tbd */; };
-		18BB67F11FE38AEA001BE744 /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 18BB67F01FE38AEA001BE744 /* libstdc++.tbd */; };
-		18BB67F31FE38AFD001BE744 /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 18BB67F21FE38AFD001BE744 /* libxml2.tbd */; };
-		18BB67F51FE38B04001BE744 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 18BB67F41FE38B04001BE744 /* libz.tbd */; };
-		18BB67F71FE38B0A001BE744 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18BB67F61FE38B0A001BE744 /* MapKit.framework */; };
-		18BB67F91FE38B16001BE744 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18BB67F81FE38B16001BE744 /* OpenGLES.framework */; };
-		18BB67FB1FE38B2D001BE744 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18BB67FA1FE38B2D001BE744 /* QuartzCore.framework */; };
-		18BB67FD1FE38B39001BE744 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18BB67FC1FE38B39001BE744 /* SystemConfiguration.framework */; };
-		18BB67FF1FE38B3F001BE744 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18BB67FE1FE38B3F001BE744 /* UIKit.framework */; };
-		18BB68011FE38B4D001BE744 /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18BB68001FE38B4D001BE744 /* Photos.framework */; };
-		18BB68031FE38B56001BE744 /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18BB68021FE38B56001BE744 /* SafariServices.framework */; };
-		18BB68051FE38B86001BE744 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18BB68041FE38B86001BE744 /* CoreMotion.framework */; };
-		18BB68071FE38B99001BE744 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18BB68061FE38B99001BE744 /* VideoToolbox.framework */; };
-		18BB68091FE38BA7001BE744 /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 18BB68081FE38BA7001BE744 /* libresolv.tbd */; };
-		7167D1E80CD33C3CB2932951 /* libPods-onlyTa.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 638DE86F69A86C4AAEF0BB8A /* libPods-onlyTa.a */; };
+		18078C94202585C8002B7F30 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18078C93202585C8002B7F30 /* AssetsLibrary.framework */; };
+		18078C96202585D0002B7F30 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18078C95202585D0002B7F30 /* AudioToolbox.framework */; };
+		18078C98202585D6002B7F30 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18078C97202585D6002B7F30 /* AVFoundation.framework */; };
+		18078C9A202585DD002B7F30 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18078C99202585DD002B7F30 /* CFNetwork.framework */; };
+		18078C9C202585E3002B7F30 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18078C9B202585E3002B7F30 /* CoreAudio.framework */; };
+		18078C9E202585E9002B7F30 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18078C9D202585E9002B7F30 /* CoreGraphics.framework */; };
+		18078CA0202585EF002B7F30 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18078C9F202585EE002B7F30 /* CoreLocation.framework */; };
+		18078CA2202585F5002B7F30 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18078CA1202585F5002B7F30 /* CoreMedia.framework */; };
+		18078CA4202585FB002B7F30 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18078CA3202585FB002B7F30 /* CoreTelephony.framework */; };
+		18078CA620258601002B7F30 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18078CA520258601002B7F30 /* CoreVideo.framework */; };
+		18078CA820258608002B7F30 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18078CA720258607002B7F30 /* ImageIO.framework */; };
+		18078CAA20258618002B7F30 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 18078CA920258618002B7F30 /* libc++.tbd */; };
+		18078CAC20258620002B7F30 /* libc++abi.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 18078CAB20258620002B7F30 /* libc++abi.tbd */; };
+		18078CAE20258628002B7F30 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 18078CAD20258628002B7F30 /* libsqlite3.tbd */; };
+		18078CB020258630002B7F30 /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 18078CAF20258630002B7F30 /* libstdc++.tbd */; };
+		18078CB220258639002B7F30 /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 18078CB120258639002B7F30 /* libxml2.tbd */; };
+		18078CB420258640002B7F30 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 18078CB320258640002B7F30 /* libz.tbd */; };
+		18078CB620258648002B7F30 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18078CB520258648002B7F30 /* MapKit.framework */; };
+		18078CB820258651002B7F30 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18078CB720258651002B7F30 /* OpenGLES.framework */; };
+		18078CBA20258658002B7F30 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18078CB920258658002B7F30 /* QuartzCore.framework */; };
+		18078CBC20258663002B7F30 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18078CBB20258663002B7F30 /* SystemConfiguration.framework */; };
+		18078CBE2025866B002B7F30 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18078CBD2025866B002B7F30 /* UIKit.framework */; };
+		18078CC020258673002B7F30 /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18078CBF20258673002B7F30 /* Photos.framework */; };
+		18078CC22025867E002B7F30 /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18078CC12025867E002B7F30 /* SafariServices.framework */; };
+		18078CC320258A8B002B7F30 /* libPods-OnlyTa.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 18078CC420258A8B002B7F30 /* libPods-OnlyTa.a */; };
+		18DCC603202581CC003452EE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DCC602202581CC003452EE /* AppDelegate.m */; };
+		18DCC606202581CC003452EE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DCC605202581CC003452EE /* ViewController.m */; };
+		18DCC609202581CC003452EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18DCC607202581CC003452EE /* Main.storyboard */; };
+		18DCC60B202581CC003452EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18DCC60A202581CC003452EE /* Assets.xcassets */; };
+		18DCC60E202581CC003452EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18DCC60C202581CC003452EE /* LaunchScreen.storyboard */; };
+		18DCC611202581CC003452EE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DCC610202581CC003452EE /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		185FFD591FFB70B600A49E5A /* Emoji.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Emoji.plist; path = Pods/RongCloudIM/RongCloudIM/Emoji.plist; sourceTree = "<group>"; };
-		185FFD5C1FFB70B600A49E5A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = RongCloudKit.strings; sourceTree = "<group>"; };
-		185FFD5D1FFB70B600A49E5A /* libopencore-amrnb.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libopencore-amrnb.a"; path = "Pods/RongCloudIM/RongCloudIM/libopencore-amrnb.a"; sourceTree = "<group>"; };
-		185FFD5E1FFB70B600A49E5A /* RCConfig.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = RCConfig.plist; path = Pods/RongCloudIM/RongCloudIM/RCConfig.plist; sourceTree = "<group>"; };
-		185FFD5F1FFB70B600A49E5A /* RongCloud.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = RongCloud.bundle; path = Pods/RongCloudIM/RongCloudIM/RongCloud.bundle; sourceTree = "<group>"; };
-		185FFD601FFB70B600A49E5A /* RongIMKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RongIMKit.framework; path = Pods/RongCloudIM/RongCloudIM/RongIMKit.framework; sourceTree = "<group>"; };
-		185FFD611FFB70B600A49E5A /* RongIMLib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RongIMLib.framework; path = Pods/RongCloudIM/RongCloudIM/RongIMLib.framework; sourceTree = "<group>"; };
-		185FFD641FFB70B600A49E5A /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = RongCloudKit.strings; sourceTree = "<group>"; };
-		18731E0B1FE37EE4004A4864 /* onlyTa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = onlyTa.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		18731E0F1FE37EE4004A4864 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		18731E111FE37EE4004A4864 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		18731E121FE37EE4004A4864 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		18731E141FE37EE4004A4864 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		18731E151FE37EE4004A4864 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		18731E181FE37EE4004A4864 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		18731E1A1FE37EE4004A4864 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		18731E1D1FE37EE4004A4864 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		18731E1F1FE37EE4004A4864 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		18881D111FEBBC3E00EBCFE8 /* APPHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APPHeader.h; sourceTree = "<group>"; };
-		18BB67D41FE38A64001BE744 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
-		18BB67D61FE38A6A001BE744 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
-		18BB67D81FE38A71001BE744 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		18BB67DA1FE38A7D001BE744 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
-		18BB67DC1FE38A8C001BE744 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
-		18BB67DE1FE38A9B001BE744 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		18BB67E01FE38AA0001BE744 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
-		18BB67E21FE38AA7001BE744 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
-		18BB67E41FE38AAF001BE744 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
-		18BB67E61FE38AB6001BE744 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
-		18BB67E81FE38AC0001BE744 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
-		18BB67EA1FE38ACB001BE744 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
-		18BB67EC1FE38AD4001BE744 /* libc++abi.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++abi.tbd"; path = "usr/lib/libc++abi.tbd"; sourceTree = SDKROOT; };
-		18BB67EE1FE38ADE001BE744 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
-		18BB67F01FE38AEA001BE744 /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
-		18BB67F21FE38AFD001BE744 /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
-		18BB67F41FE38B04001BE744 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
-		18BB67F61FE38B0A001BE744 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
-		18BB67F81FE38B16001BE744 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
-		18BB67FA1FE38B2D001BE744 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		18BB67FC1FE38B39001BE744 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
-		18BB67FE1FE38B3F001BE744 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		18BB68001FE38B4D001BE744 /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
-		18BB68021FE38B56001BE744 /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
-		18BB68041FE38B86001BE744 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
-		18BB68061FE38B99001BE744 /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
-		18BB68081FE38BA7001BE744 /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = usr/lib/libresolv.tbd; sourceTree = SDKROOT; };
-		638DE86F69A86C4AAEF0BB8A /* libPods-onlyTa.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-onlyTa.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A54BD15643E269EBEF80011D /* Pods-onlyTa.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-onlyTa.release.xcconfig"; path = "Pods/Target Support Files/Pods-onlyTa/Pods-onlyTa.release.xcconfig"; sourceTree = "<group>"; };
-		FD11D5AC134BAF99233DFF20 /* Pods-onlyTa.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-onlyTa.debug.xcconfig"; path = "Pods/Target Support Files/Pods-onlyTa/Pods-onlyTa.debug.xcconfig"; sourceTree = "<group>"; };
+		0B9DF1608F5CD12C140E748D /* Pods-OnlyTa.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnlyTa.release.xcconfig"; path = "Pods/Target Support Files/Pods-OnlyTa/Pods-OnlyTa.release.xcconfig"; sourceTree = "<group>"; };
+		18078C93202585C8002B7F30 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		18078C95202585D0002B7F30 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		18078C97202585D6002B7F30 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		18078C99202585DD002B7F30 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		18078C9B202585E3002B7F30 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		18078C9D202585E9002B7F30 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		18078C9F202585EE002B7F30 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		18078CA1202585F5002B7F30 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		18078CA3202585FB002B7F30 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		18078CA520258601002B7F30 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		18078CA720258607002B7F30 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		18078CA920258618002B7F30 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		18078CAB20258620002B7F30 /* libc++abi.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++abi.tbd"; path = "usr/lib/libc++abi.tbd"; sourceTree = SDKROOT; };
+		18078CAD20258628002B7F30 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		18078CAF20258630002B7F30 /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		18078CB120258639002B7F30 /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
+		18078CB320258640002B7F30 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		18078CB520258648002B7F30 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		18078CB720258651002B7F30 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		18078CB920258658002B7F30 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		18078CBB20258663002B7F30 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		18078CBD2025866B002B7F30 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		18078CBF20258673002B7F30 /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
+		18078CC12025867E002B7F30 /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
+		18078CC420258A8B002B7F30 /* libPods-OnlyTa.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libPods-OnlyTa.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18DCC5FE202581CC003452EE /* OnlyTa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OnlyTa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18DCC601202581CC003452EE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18DCC602202581CC003452EE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18DCC604202581CC003452EE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		18DCC605202581CC003452EE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		18DCC608202581CC003452EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18DCC60A202581CC003452EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18DCC60D202581CC003452EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18DCC60F202581CC003452EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18DCC610202581CC003452EE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9085B73CE6A06192D66A4DD7 /* libPods-OnlyTa.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OnlyTa.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A97E9F5CCAE01EEEA3BD8C1A /* Pods-OnlyTa.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnlyTa.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OnlyTa/Pods-OnlyTa.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		18731E081FE37EE4004A4864 /* Frameworks */ = {
+		18DCC5FB202581CC003452EE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				185FFD661FFB710200A49E5A /* RongIMLib.framework in Frameworks */,
-				185FFD651FFB70E800A49E5A /* RongIMKit.framework in Frameworks */,
-				18BB68091FE38BA7001BE744 /* libresolv.tbd in Frameworks */,
-				18BB68071FE38B99001BE744 /* VideoToolbox.framework in Frameworks */,
-				18BB68051FE38B86001BE744 /* CoreMotion.framework in Frameworks */,
-				18BB68031FE38B56001BE744 /* SafariServices.framework in Frameworks */,
-				18BB68011FE38B4D001BE744 /* Photos.framework in Frameworks */,
-				18BB67FF1FE38B3F001BE744 /* UIKit.framework in Frameworks */,
-				18BB67FD1FE38B39001BE744 /* SystemConfiguration.framework in Frameworks */,
-				18BB67FB1FE38B2D001BE744 /* QuartzCore.framework in Frameworks */,
-				18BB67F91FE38B16001BE744 /* OpenGLES.framework in Frameworks */,
-				18BB67F71FE38B0A001BE744 /* MapKit.framework in Frameworks */,
-				18BB67F51FE38B04001BE744 /* libz.tbd in Frameworks */,
-				18BB67F31FE38AFD001BE744 /* libxml2.tbd in Frameworks */,
-				18BB67F11FE38AEA001BE744 /* libstdc++.tbd in Frameworks */,
-				18BB67EF1FE38ADE001BE744 /* libsqlite3.tbd in Frameworks */,
-				18BB67ED1FE38AD4001BE744 /* libc++abi.tbd in Frameworks */,
-				18BB67EB1FE38ACB001BE744 /* libc++.tbd in Frameworks */,
-				18BB67E91FE38AC0001BE744 /* ImageIO.framework in Frameworks */,
-				18BB67E71FE38AB6001BE744 /* CoreVideo.framework in Frameworks */,
-				18BB67E51FE38AAF001BE744 /* CoreTelephony.framework in Frameworks */,
-				18BB67E31FE38AA7001BE744 /* CoreMedia.framework in Frameworks */,
-				18BB67E11FE38AA0001BE744 /* CoreLocation.framework in Frameworks */,
-				18BB67DF1FE38A9B001BE744 /* CoreGraphics.framework in Frameworks */,
-				18BB67DD1FE38A8C001BE744 /* CoreAudio.framework in Frameworks */,
-				18BB67DB1FE38A7D001BE744 /* CFNetwork.framework in Frameworks */,
-				18BB67D91FE38A71001BE744 /* AVFoundation.framework in Frameworks */,
-				18BB67D71FE38A6A001BE744 /* AudioToolbox.framework in Frameworks */,
-				18BB67D51FE38A64001BE744 /* AssetsLibrary.framework in Frameworks */,
-				7167D1E80CD33C3CB2932951 /* libPods-onlyTa.a in Frameworks */,
+				18078CC320258A8B002B7F30 /* libPods-OnlyTa.a in Frameworks */,
+				18078CC22025867E002B7F30 /* SafariServices.framework in Frameworks */,
+				18078CC020258673002B7F30 /* Photos.framework in Frameworks */,
+				18078CBE2025866B002B7F30 /* UIKit.framework in Frameworks */,
+				18078CBC20258663002B7F30 /* SystemConfiguration.framework in Frameworks */,
+				18078CBA20258658002B7F30 /* QuartzCore.framework in Frameworks */,
+				18078CB820258651002B7F30 /* OpenGLES.framework in Frameworks */,
+				18078CB620258648002B7F30 /* MapKit.framework in Frameworks */,
+				18078CB420258640002B7F30 /* libz.tbd in Frameworks */,
+				18078CB220258639002B7F30 /* libxml2.tbd in Frameworks */,
+				18078CB020258630002B7F30 /* libstdc++.tbd in Frameworks */,
+				18078CAE20258628002B7F30 /* libsqlite3.tbd in Frameworks */,
+				18078CAC20258620002B7F30 /* libc++abi.tbd in Frameworks */,
+				18078CAA20258618002B7F30 /* libc++.tbd in Frameworks */,
+				18078CA820258608002B7F30 /* ImageIO.framework in Frameworks */,
+				18078CA620258601002B7F30 /* CoreVideo.framework in Frameworks */,
+				18078CA4202585FB002B7F30 /* CoreTelephony.framework in Frameworks */,
+				18078CA2202585F5002B7F30 /* CoreMedia.framework in Frameworks */,
+				18078CA0202585EF002B7F30 /* CoreLocation.framework in Frameworks */,
+				18078C9E202585E9002B7F30 /* CoreGraphics.framework in Frameworks */,
+				18078C9C202585E3002B7F30 /* CoreAudio.framework in Frameworks */,
+				18078C9A202585DD002B7F30 /* CFNetwork.framework in Frameworks */,
+				18078C98202585D6002B7F30 /* AVFoundation.framework in Frameworks */,
+				18078C96202585D0002B7F30 /* AudioToolbox.framework in Frameworks */,
+				18078C94202585C8002B7F30 /* AssetsLibrary.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		185FFD5A1FFB70B600A49E5A /* en.lproj */ = {
+		18DCC5F5202581CC003452EE = {
 			isa = PBXGroup;
 			children = (
-				185FFD5B1FFB70B600A49E5A /* RongCloudKit.strings */,
-			);
-			name = en.lproj;
-			path = Pods/RongCloudIM/RongCloudIM/en.lproj;
-			sourceTree = "<group>";
-		};
-		185FFD621FFB70B600A49E5A /* zh-Hans.lproj */ = {
-			isa = PBXGroup;
-			children = (
-				185FFD631FFB70B600A49E5A /* RongCloudKit.strings */,
-			);
-			name = "zh-Hans.lproj";
-			path = "Pods/RongCloudIM/RongCloudIM/zh-Hans.lproj";
-			sourceTree = "<group>";
-		};
-		18731E021FE37EE4004A4864 = {
-			isa = PBXGroup;
-			children = (
-				18731E0D1FE37EE4004A4864 /* onlyTa */,
-				18731E0C1FE37EE4004A4864 /* Products */,
-				18BB67D31FE38A63001BE744 /* Frameworks */,
-				29494D9F3B3C23E758A2CD2D /* Pods */,
+				18DCC600202581CC003452EE /* OnlyTa */,
+				18DCC5FF202581CC003452EE /* Products */,
+				B71B835EB416E09C1068C842 /* Pods */,
+				9438BDA3258AB57BED396064 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		18731E0C1FE37EE4004A4864 /* Products */ = {
+		18DCC5FF202581CC003452EE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				18731E0B1FE37EE4004A4864 /* onlyTa.app */,
+				18DCC5FE202581CC003452EE /* OnlyTa.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		18731E0D1FE37EE4004A4864 /* onlyTa */ = {
+		18DCC600202581CC003452EE /* OnlyTa */ = {
 			isa = PBXGroup;
 			children = (
-				18731E111FE37EE4004A4864 /* AppDelegate.h */,
-				18731E121FE37EE4004A4864 /* AppDelegate.m */,
-				18731E141FE37EE4004A4864 /* ViewController.h */,
-				18731E151FE37EE4004A4864 /* ViewController.m */,
-				18731E171FE37EE4004A4864 /* Main.storyboard */,
-				18731E1A1FE37EE4004A4864 /* Assets.xcassets */,
-				18731E1C1FE37EE4004A4864 /* LaunchScreen.storyboard */,
-				18731E1F1FE37EE4004A4864 /* Info.plist */,
-				18731E0E1FE37EE4004A4864 /* Supporting Files */,
+				18DCC601202581CC003452EE /* AppDelegate.h */,
+				18DCC602202581CC003452EE /* AppDelegate.m */,
+				18DCC604202581CC003452EE /* ViewController.h */,
+				18DCC605202581CC003452EE /* ViewController.m */,
+				18DCC607202581CC003452EE /* Main.storyboard */,
+				18DCC60A202581CC003452EE /* Assets.xcassets */,
+				18DCC60C202581CC003452EE /* LaunchScreen.storyboard */,
+				18DCC60F202581CC003452EE /* Info.plist */,
+				18DCC610202581CC003452EE /* main.m */,
 			);
-			path = onlyTa;
+			path = OnlyTa;
 			sourceTree = "<group>";
 		};
-		18731E0E1FE37EE4004A4864 /* Supporting Files */ = {
+		9438BDA3258AB57BED396064 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				18731E0F1FE37EE4004A4864 /* main.m */,
-				18881D111FEBBC3E00EBCFE8 /* APPHeader.h */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		18BB67D31FE38A63001BE744 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				185FFD591FFB70B600A49E5A /* Emoji.plist */,
-				185FFD5A1FFB70B600A49E5A /* en.lproj */,
-				185FFD5D1FFB70B600A49E5A /* libopencore-amrnb.a */,
-				185FFD5E1FFB70B600A49E5A /* RCConfig.plist */,
-				185FFD5F1FFB70B600A49E5A /* RongCloud.bundle */,
-				185FFD601FFB70B600A49E5A /* RongIMKit.framework */,
-				185FFD611FFB70B600A49E5A /* RongIMLib.framework */,
-				185FFD621FFB70B600A49E5A /* zh-Hans.lproj */,
-				18BB68081FE38BA7001BE744 /* libresolv.tbd */,
-				18BB68061FE38B99001BE744 /* VideoToolbox.framework */,
-				18BB68041FE38B86001BE744 /* CoreMotion.framework */,
-				18BB68021FE38B56001BE744 /* SafariServices.framework */,
-				18BB68001FE38B4D001BE744 /* Photos.framework */,
-				18BB67FE1FE38B3F001BE744 /* UIKit.framework */,
-				18BB67FC1FE38B39001BE744 /* SystemConfiguration.framework */,
-				18BB67FA1FE38B2D001BE744 /* QuartzCore.framework */,
-				18BB67F81FE38B16001BE744 /* OpenGLES.framework */,
-				18BB67F61FE38B0A001BE744 /* MapKit.framework */,
-				18BB67F41FE38B04001BE744 /* libz.tbd */,
-				18BB67F21FE38AFD001BE744 /* libxml2.tbd */,
-				18BB67F01FE38AEA001BE744 /* libstdc++.tbd */,
-				18BB67EE1FE38ADE001BE744 /* libsqlite3.tbd */,
-				18BB67EC1FE38AD4001BE744 /* libc++abi.tbd */,
-				18BB67EA1FE38ACB001BE744 /* libc++.tbd */,
-				18BB67E81FE38AC0001BE744 /* ImageIO.framework */,
-				18BB67E61FE38AB6001BE744 /* CoreVideo.framework */,
-				18BB67E41FE38AAF001BE744 /* CoreTelephony.framework */,
-				18BB67E21FE38AA7001BE744 /* CoreMedia.framework */,
-				18BB67E01FE38AA0001BE744 /* CoreLocation.framework */,
-				18BB67DE1FE38A9B001BE744 /* CoreGraphics.framework */,
-				18BB67DC1FE38A8C001BE744 /* CoreAudio.framework */,
-				18BB67DA1FE38A7D001BE744 /* CFNetwork.framework */,
-				18BB67D81FE38A71001BE744 /* AVFoundation.framework */,
-				18BB67D61FE38A6A001BE744 /* AudioToolbox.framework */,
-				18BB67D41FE38A64001BE744 /* AssetsLibrary.framework */,
-				638DE86F69A86C4AAEF0BB8A /* libPods-onlyTa.a */,
+				18078CC420258A8B002B7F30 /* libPods-OnlyTa.a */,
+				18078CC12025867E002B7F30 /* SafariServices.framework */,
+				18078CBF20258673002B7F30 /* Photos.framework */,
+				18078CBD2025866B002B7F30 /* UIKit.framework */,
+				18078CBB20258663002B7F30 /* SystemConfiguration.framework */,
+				18078CB920258658002B7F30 /* QuartzCore.framework */,
+				18078CB720258651002B7F30 /* OpenGLES.framework */,
+				18078CB520258648002B7F30 /* MapKit.framework */,
+				18078CB320258640002B7F30 /* libz.tbd */,
+				18078CB120258639002B7F30 /* libxml2.tbd */,
+				18078CAF20258630002B7F30 /* libstdc++.tbd */,
+				18078CAD20258628002B7F30 /* libsqlite3.tbd */,
+				18078CAB20258620002B7F30 /* libc++abi.tbd */,
+				18078CA920258618002B7F30 /* libc++.tbd */,
+				18078CA720258607002B7F30 /* ImageIO.framework */,
+				18078CA520258601002B7F30 /* CoreVideo.framework */,
+				18078CA3202585FB002B7F30 /* CoreTelephony.framework */,
+				18078CA1202585F5002B7F30 /* CoreMedia.framework */,
+				18078C9F202585EE002B7F30 /* CoreLocation.framework */,
+				18078C9D202585E9002B7F30 /* CoreGraphics.framework */,
+				18078C9B202585E3002B7F30 /* CoreAudio.framework */,
+				18078C99202585DD002B7F30 /* CFNetwork.framework */,
+				18078C97202585D6002B7F30 /* AVFoundation.framework */,
+				18078C95202585D0002B7F30 /* AudioToolbox.framework */,
+				18078C93202585C8002B7F30 /* AssetsLibrary.framework */,
+				9085B73CE6A06192D66A4DD7 /* libPods-OnlyTa.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		29494D9F3B3C23E758A2CD2D /* Pods */ = {
+		B71B835EB416E09C1068C842 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				FD11D5AC134BAF99233DFF20 /* Pods-onlyTa.debug.xcconfig */,
-				A54BD15643E269EBEF80011D /* Pods-onlyTa.release.xcconfig */,
+				A97E9F5CCAE01EEEA3BD8C1A /* Pods-OnlyTa.debug.xcconfig */,
+				0B9DF1608F5CD12C140E748D /* Pods-OnlyTa.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -254,76 +196,74 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		18731E0A1FE37EE4004A4864 /* onlyTa */ = {
+		18DCC5FD202581CC003452EE /* OnlyTa */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 18731E221FE37EE4004A4864 /* Build configuration list for PBXNativeTarget "onlyTa" */;
+			buildConfigurationList = 18DCC614202581CC003452EE /* Build configuration list for PBXNativeTarget "OnlyTa" */;
 			buildPhases = (
-				2BFFAD24E0F7EFFC6A7B692A /* [CP] Check Pods Manifest.lock */,
-				18731E071FE37EE4004A4864 /* Sources */,
-				18731E081FE37EE4004A4864 /* Frameworks */,
-				18731E091FE37EE4004A4864 /* Resources */,
-				0AD4F3457379E11ECDF3E9AD /* [CP] Embed Pods Frameworks */,
-				2CB1EFA75AA9D1712774E37A /* [CP] Copy Pods Resources */,
+				99ABF3B6AC5FF5C07E8930E2 /* [CP] Check Pods Manifest.lock */,
+				18DCC5FA202581CC003452EE /* Sources */,
+				18DCC5FB202581CC003452EE /* Frameworks */,
+				18DCC5FC202581CC003452EE /* Resources */,
+				2089C9E762A1AF02787A4743 /* [CP] Embed Pods Frameworks */,
+				907D5D37A9131534AEE7A41E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = onlyTa;
-			productName = onlyTa;
-			productReference = 18731E0B1FE37EE4004A4864 /* onlyTa.app */;
+			name = OnlyTa;
+			productName = OnlyTa;
+			productReference = 18DCC5FE202581CC003452EE /* OnlyTa.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		18731E031FE37EE4004A4864 /* Project object */ = {
+		18DCC5F6202581CC003452EE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = a1anwang;
 				TargetAttributes = {
-					18731E0A1FE37EE4004A4864 = {
-						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = MBK892XXLN;
+					18DCC5FD202581CC003452EE = {
+						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = 18731E061FE37EE4004A4864 /* Build configuration list for PBXProject "onlyTa" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			buildConfigurationList = 18DCC5F9202581CC003452EE /* Build configuration list for PBXProject "OnlyTa" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
-				"zh-Hans",
 			);
-			mainGroup = 18731E021FE37EE4004A4864;
-			productRefGroup = 18731E0C1FE37EE4004A4864 /* Products */;
+			mainGroup = 18DCC5F5202581CC003452EE;
+			productRefGroup = 18DCC5FF202581CC003452EE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				18731E0A1FE37EE4004A4864 /* onlyTa */,
+				18DCC5FD202581CC003452EE /* OnlyTa */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		18731E091FE37EE4004A4864 /* Resources */ = {
+		18DCC5FC202581CC003452EE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18731E1E1FE37EE4004A4864 /* LaunchScreen.storyboard in Resources */,
-				18731E1B1FE37EE4004A4864 /* Assets.xcassets in Resources */,
-				18731E191FE37EE4004A4864 /* Main.storyboard in Resources */,
+				18DCC60E202581CC003452EE /* LaunchScreen.storyboard in Resources */,
+				18DCC60B202581CC003452EE /* Assets.xcassets in Resources */,
+				18DCC609202581CC003452EE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0AD4F3457379E11ECDF3E9AD /* [CP] Embed Pods Frameworks */ = {
+		2089C9E762A1AF02787A4743 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -335,10 +275,36 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-onlyTa/Pods-onlyTa-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OnlyTa/Pods-OnlyTa-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		2BFFAD24E0F7EFFC6A7B692A /* [CP] Check Pods Manifest.lock */ = {
+		907D5D37A9131534AEE7A41E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-OnlyTa/Pods-OnlyTa-resources.sh",
+				"${PODS_ROOT}/RongCloudIM/RongCloudIM/RongCloud.bundle",
+				"${PODS_ROOT}/RongCloudIM/RongCloudIM/en.lproj",
+				"${PODS_ROOT}/RongCloudIM/RongCloudIM/zh-Hans.lproj",
+				"${PODS_ROOT}/RongCloudIM/RongCloudIM/Emoji.plist",
+				"${PODS_ROOT}/RongCloudIM/RongCloudIM/RCConfig.plist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/RongCloud.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/en.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/zh-Hans.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Emoji.plist",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/RCConfig.plist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OnlyTa/Pods-OnlyTa-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		99ABF3B6AC5FF5C07E8930E2 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -349,79 +315,41 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-onlyTa-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-OnlyTa-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		2CB1EFA75AA9D1712774E37A /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-onlyTa/Pods-onlyTa-resources.sh",
-				"${PODS_ROOT}/RongCloudIM/RongCloudIM/RongCloud.bundle",
-				"${PODS_ROOT}/RongCloudIM/RongCloudIM/en.lproj",
-				"${PODS_ROOT}/RongCloudIM/RongCloudIM/zh-Hans.lproj",
-				"${PODS_ROOT}/RongCloudIM/RongCloudIM/Emoji.plist",
-				"${PODS_ROOT}/RongCloudIM/RongCloudIM/RCConfig.plist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-onlyTa/Pods-onlyTa-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		18731E071FE37EE4004A4864 /* Sources */ = {
+		18DCC5FA202581CC003452EE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18731E161FE37EE4004A4864 /* ViewController.m in Sources */,
-				18731E131FE37EE4004A4864 /* AppDelegate.m in Sources */,
-				18731E101FE37EE4004A4864 /* main.m in Sources */,
+				18DCC606202581CC003452EE /* ViewController.m in Sources */,
+				18DCC611202581CC003452EE /* main.m in Sources */,
+				18DCC603202581CC003452EE /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		185FFD5B1FFB70B600A49E5A /* RongCloudKit.strings */ = {
+		18DCC607202581CC003452EE /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				185FFD5C1FFB70B600A49E5A /* en */,
-			);
-			name = RongCloudKit.strings;
-			sourceTree = "<group>";
-		};
-		185FFD631FFB70B600A49E5A /* RongCloudKit.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				185FFD641FFB70B600A49E5A /* zh-Hans */,
-			);
-			name = RongCloudKit.strings;
-			sourceTree = "<group>";
-		};
-		18731E171FE37EE4004A4864 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				18731E181FE37EE4004A4864 /* Base */,
+				18DCC608202581CC003452EE /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		18731E1C1FE37EE4004A4864 /* LaunchScreen.storyboard */ = {
+		18DCC60C202581CC003452EE /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				18731E1D1FE37EE4004A4864 /* Base */,
+				18DCC60D202581CC003452EE /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -429,17 +357,19 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		18731E201FE37EE4004A4864 /* Debug */ = {
+		18DCC612202581CC003452EE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -447,16 +377,21 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -470,24 +405,27 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
 		};
-		18731E211FE37EE4004A4864 /* Release */ = {
+		18DCC613202581CC003452EE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -495,16 +433,21 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -512,93 +455,68 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		18731E231FE37EE4004A4864 /* Debug */ = {
+		18DCC615202581CC003452EE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FD11D5AC134BAF99233DFF20 /* Pods-onlyTa.debug.xcconfig */;
+			baseConfigurationReference = A97E9F5CCAE01EEEA3BD8C1A /* Pods-OnlyTa.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MBK892XXLN;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/onlyTa/CallKit",
-					"$(PROJECT_DIR)/onlyTa/CallLib",
-					"$(PROJECT_DIR)/onlyTa/IMKit",
-					"$(PROJECT_DIR)/onlyTa/IMLib",
-					"$(PROJECT_DIR)/onlyTa/RedPacket/AlipaySDK",
-					"$(PROJECT_DIR)/onlyTa/RedPacket/JrmfIMLib",
-					"$(PROJECT_DIR)/Pods/RongCloudIM/RongCloudIM",
-				);
-				INFOPLIST_FILE = onlyTa/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				INFOPLIST_FILE = OnlyTa/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/onlyTa/IMLib",
-				);
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = a1anwang.com.onlyTa;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "a1anwang.com.onlyta-ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		18731E241FE37EE4004A4864 /* Release */ = {
+		18DCC616202581CC003452EE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A54BD15643E269EBEF80011D /* Pods-onlyTa.release.xcconfig */;
+			baseConfigurationReference = 0B9DF1608F5CD12C140E748D /* Pods-OnlyTa.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MBK892XXLN;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/onlyTa/CallKit",
-					"$(PROJECT_DIR)/onlyTa/CallLib",
-					"$(PROJECT_DIR)/onlyTa/IMKit",
-					"$(PROJECT_DIR)/onlyTa/IMLib",
-					"$(PROJECT_DIR)/onlyTa/RedPacket/AlipaySDK",
-					"$(PROJECT_DIR)/onlyTa/RedPacket/JrmfIMLib",
-					"$(PROJECT_DIR)/Pods/RongCloudIM/RongCloudIM",
-				);
-				INFOPLIST_FILE = onlyTa/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				INFOPLIST_FILE = OnlyTa/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/onlyTa/IMLib",
-				);
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = a1anwang.com.onlyTa;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "a1anwang.com.onlyta-ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		18731E061FE37EE4004A4864 /* Build configuration list for PBXProject "onlyTa" */ = {
+		18DCC5F9202581CC003452EE /* Build configuration list for PBXProject "OnlyTa" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				18731E201FE37EE4004A4864 /* Debug */,
-				18731E211FE37EE4004A4864 /* Release */,
+				18DCC612202581CC003452EE /* Debug */,
+				18DCC613202581CC003452EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		18731E221FE37EE4004A4864 /* Build configuration list for PBXNativeTarget "onlyTa" */ = {
+		18DCC614202581CC003452EE /* Build configuration list for PBXNativeTarget "OnlyTa" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				18731E231FE37EE4004A4864 /* Debug */,
-				18731E241FE37EE4004A4864 /* Release */,
+				18DCC615202581CC003452EE /* Debug */,
+				18DCC616202581CC003452EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 18731E031FE37EE4004A4864 /* Project object */;
+	rootObject = 18DCC5F6202581CC003452EE /* Project object */;
 }
