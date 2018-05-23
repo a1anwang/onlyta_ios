@@ -7,10 +7,13 @@
 //
 
 #import "AppDelegate.h"
-#import <RongIMKit/RongIMKit.h>
-#define RongYunAppKey @"8luwapkv8rcgl"
+#import "TalkListViewController.h"
+#import "LoginVC.h"
+#import "ChartVC.h"
 @interface AppDelegate ()
-
+{
+     BOOL initComplete;//初始化完成之后才可以进入下个页面
+}
 @end
 
 @implementation AppDelegate
@@ -18,19 +21,75 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    [[RCIM sharedRCIM] initWithAppKey:RongYunAppKey];
+    [AMapServices sharedServices].apiKey = AmapLocationKey;
+    [[RongyunEvent getInstance] initIM];
+    //统一导航条样式
     
-    [[RCIM sharedRCIM] connectWithToken:@"jyIdI/qql/JN6d4OXtL9yMYhqZhF+AHGHIl0kaVBbOzVxTNWIQ2XW1GLo6j4XfO/m7z55CRd2VDJfjfpC92wDw=="     success:^(NSString *userId) {
-        NSLog(@"登陆成功。当前登录的用户ID：%@", userId);
-    } error:^(RCConnectErrorCode status) {
-        NSLog(@"登陆的错误码为:%d", status);
-    } tokenIncorrect:^{
-        //token过期或者不正确。
-        //如果设置了token有效期并且token过期，请重新请求您的服务器获取新的token
-        //如果没有设置token有效期却提示token错误，请检查您客户端和服务器的appkey是否匹配，还有检查您获取token的流程。
-        NSLog(@"token错误");
-    }];
+    
+    
+    [self initUser];
+ 
+ 
     return YES;
+}
+-(void)initUser{
+    NSInteger userId=[[NSUserDefaults standardUserDefaults] integerForKey:KUserDefaults_uid];
+    NSLog(@" userid:%d",userId);
+    if(userId>0){
+        //登录过
+        //开始连接IM
+        self.userAccount=[UserAccount new];
+        self.userAccount.uid=userId;
+        self.userAccount.nickname=[[NSUserDefaults standardUserDefaults] stringForKey:KUserDefaults_nickname];
+        self.userAccount.rongyun_token=[[NSUserDefaults standardUserDefaults] stringForKey:KUserDefaults_rongyun_token];
+        self.userAccount.headImageURL=[[NSUserDefaults standardUserDefaults] stringForKey:KUserDefaults_headImageURL];
+        self.userAccount.gender=[[NSUserDefaults standardUserDefaults] integerForKey:KUserDefaults_gender];
+        self.userAccount.target_uid=[[NSUserDefaults standardUserDefaults] integerForKey:KUserDefaults_target_uid];
+        self.userAccount.phoneNum=[[NSUserDefaults standardUserDefaults] stringForKey:KUserDefaults_phoneNum];
+        self.userAccount.target_nickname=[[NSUserDefaults standardUserDefaults] stringForKey:KUserDefaults_target_nickname];
+ 
+        [[RongyunEvent getInstance] connectIM:self.userAccount.rongyun_token success:^(NSString *userId) {
+            //进入主页面
+             initComplete=YES;
+            dispatch_async(dispatch_get_main_queue(), ^{
+                self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+                self.window.backgroundColor = [UIColor whiteColor];
+                NSString *mTargetId=[NSString stringWithFormat:@"%ld",self.userAccount.target_uid];
+                ChartVC *chat=[[ChartVC alloc] initWithConversationType:ConversationType_PRIVATE targetId:mTargetId];
+                chat.title=self.userAccount.target_nickname;
+                UINavigationController*navi= [[UINavigationController alloc] initWithRootViewController:chat];
+                
+                self.window.rootViewController = navi;
+                [self.window makeKeyAndVisible];
+            });
+           
+           
+        } error:^(RCConnectErrorCode status) {
+            
+        } tokenIncorrect:^{
+             initComplete=YES;
+            //token失败,进入登录页面
+            dispatch_async(dispatch_get_main_queue(), ^{
+                self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+                self.window.backgroundColor = [UIColor whiteColor];
+                LoginVC *vc = [[LoginVC alloc]init];
+                UINavigationController *navi=[[UINavigationController alloc]initWithRootViewController:vc];
+                self.window.rootViewController = navi;
+                [self.window makeKeyAndVisible];
+            });
+           
+          
+        }];
+    }else{
+        //未登录过,进入登录页面
+        initComplete=YES;
+        self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+        self.window.backgroundColor = [UIColor whiteColor];
+        LoginVC *vc = [[LoginVC alloc]init];
+        UINavigationController *navi=[[UINavigationController alloc]initWithRootViewController:vc];
+        self.window.rootViewController = navi;
+        [self.window makeKeyAndVisible];
+    }
 }
 
 

@@ -108,6 +108,37 @@ FOUNDATION_EXPORT NSString *const RCKitDispatchMessageReceiptRequestNotification
 
 @end
 
+
+/**
+ 公众号信息提供者
+ 
+ @discussion SDK 需要通过您实现的公众号信息提供者，获取公众号信息并显示。
+ */
+@protocol RCIMPublicServiceProfileDataSource <NSObject>
+
+
+/**
+ 获取公众号信息
+
+ @param accountId 公众号 ID
+ @param completion  获取公众号信息完成之后需要执行的 Block[profile: 该公众号 ID 对应的公众号信息]
+ 
+ @discussion SDK 通过此方法获取公众号信息并显示，请在 completion 中返回该公众号 ID 对应的公众号信息。
+ 在您设置了公众号信息提供者之后，SDK 在需要显示公众号信息的时候，会调用此方法，向您请求公众号信息用于显示。
+ */
+- (void)getPublicServiceProfile:(NSString*)accountId completion:(void(^)(RCPublicServiceProfile* profile))completion;
+
+
+/**
+ 同步返回公众号信息
+
+ @param accountId 公众号 ID
+ @return 公众号信息
+ */
+- (RCPublicServiceProfile*)publicServiceProfile:(NSString*)accountId;
+
+@end
+
 /*!
  群组信息提供者
 
@@ -954,6 +985,11 @@ FOUNDATION_EXPORT NSString *const RCKitDispatchMessageReceiptRequestNotification
  @discussion 如果您使用了@功能，SDK需要通过您实现的群用户成员提供者，获取群组中的用户列表。
  */
 @property(nonatomic, weak) id<RCIMGroupMemberDataSource> groupMemberDataSource;
+
+
+#pragma mark - 公众号信息提供者
+
+@property (nonatomic,weak) id <RCIMPublicServiceProfileDataSource> publicServiceInfoDataSource;
 
 #pragma mark 头像显示
 

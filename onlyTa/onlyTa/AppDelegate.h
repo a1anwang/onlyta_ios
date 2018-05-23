@@ -7,11 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import <RongIMKit/RongIMKit.h>
+#import "UserAccount.h"
+#import "Header.h"
+#import "BaseTabBarController.h"
+#import <AMapFoundationKit/AMapFoundationKit.h>
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
-
+@property (strong, nonatomic) UserAccount *userAccount;
+@property (strong, nonatomic) BaseTabBarController *baseTabBar;
 
 @end
 

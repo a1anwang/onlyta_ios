@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>class</key>
+		<string>TalkVC</string>
+		<key>title</key>
+		<string>TA</string>
+		<key>image</key>
+		<string>tab_chat</string>
+		<key>selectedImage</key>
+		<string>tab_chat_hover</string>
+		<key>badgeValue</key>
+		<string>0</string>
+	</dict>
+	<dict>
+		<key>class</key>
+		<string>MineVC</string>
+		<key>title</key>
+		<string>我的</string>
+		<key>image</key>
+		<string>tab_me</string>
+		<key>selectedImage</key>
+		<string>tab_me_hover</string>
+		<key>badgeValue</key>
+		<string>0</string>
+	</dict>
+</array>
+</plist>
